@@ -1,0 +1,6 @@
+.navbar-nav {
+    flex-direction: row;
+}
+#one , #two{
+    padding: 15px;
+}
