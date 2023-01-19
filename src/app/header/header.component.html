@@ -1,0 +1,75 @@
+<nav class="navbar nv" >
+    <div class="container-fluid" >
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand" style="color: white;">Food Truck</a>
+        </div>
+
+        <ul class="nav navbar-nav">
+            <li routerLinkActive="active" 
+                *ngIf="isAuthenticated">
+                <a routerLink="/recipes" class="extra">Recipes</a>
+            </li>
+            <li 
+                routerLinkActive="active"
+                *ngIf="!isAuthenticated">
+                <a routerLink="/auth" class="extra">Authenticate</a>
+            </li>
+            <li 
+                routerLinkActive="active">
+                <a routerLink="/shopping-list" class="extra">Shopping List</a>
+            </li>
+            <li 
+                *ngIf="isAuthenticated"
+                style="cursor: pointer"
+                class="extra"
+                (click)="onLogout()">Logout
+            </li>
+        </ul><br><hr><hr><hr><hr>
+        <!-- <div>
+            <ul>
+                <li class="dropdown" appDropdown >
+                  <a class="dropdown-toggle" style="cursor: pointer; text-decoration: none; color: white; padding-right: 40px;"
+                    role="button">Manage 
+                    <span class="caret"></span>
+                  </a>
+                  
+                  <ul class="dropdown-menu" >
+                    <li>
+                        <a style="cursor: pointer; text-decoration: none; color: white;" 
+                        (click)="onSaveData()"
+                        >Save Data
+                        </a>
+                    </li>
+                    <li>
+                        <a style="cursor: pointer; text-decoration: none; color: white;"
+                        (click)="onFetchData()"
+                        >Fetch Data
+                        </a>
+                    </li>
+                  </ul>
+                </li>
+            </ul> 
+        </div> -->
+
+        <div class="dropdown" *ngIf="isAuthenticated">
+            <button class="dropbtn">Manage</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li>
+                        <a style="cursor: pointer; text-decoration: none; list-style: none;" 
+                        (click)="onSaveData()"
+                        >Save Data
+                        </a>
+                    </li>
+                    <li>
+                        <a style="cursor: pointer; text-decoration: none; list-style: none;"
+                        (click)="onFetchData()"
+                        >Fetch Data
+                        </a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+
+    </div>
+</nav>
