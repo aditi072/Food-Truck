@@ -1,9 +1,9 @@
 # Screenshots
 
 ![Screenshot 1](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot-1.png)
-![Screenshot 2](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot -2.png)
-![Screenshot 3](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot -3.png)
-![Screenshot 4](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot -4.png)
+![Screenshot 2](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot%20-2.png)
+![Screenshot 3](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot%20-3.png)
+![Screenshot 4](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot%20-4.png)
 
 # Working 
 
