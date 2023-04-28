@@ -21,6 +21,7 @@ export class RecipeEditComponent {
     this.route.params
     .subscribe(
       (params: Params) => {
+        // extracting values of params from url
           this.id = +params['id'];
           this.editMode = params['id'] != null;
           this.initForm();
