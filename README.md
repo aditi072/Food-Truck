@@ -1,3 +1,18 @@
+# Screenshots
+
+![Screenshot 1](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot-1.png)
+![Screenshot 2](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot-2.png)
+![Screenshot 3](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot-3.png)
+![Screenshot 4](https://github.com/aditi072/Food-Truck/blob/main/src/assets/Screenshot-4.png)
+
+# Working 
+
+1) Authenticate yourself. Try [Email - test@test.com , password - abcdef] and click on 'Manage->fetch data' for a Demo]. Error Handling has been done to catch wrong credentials.
+2) User can create new Recipes, manage them, add ingredients and move them to shopping list.
+3) Save any changes made to view them later & save them on firebase database. And fetch the recipes when you log-in again.
+4) User can perform CRUD operations on recipes as well as in the shopping list.
+5) Logout only after saving the changes. Or the user will automatically be logged out after an hour.
+
 # FoodTruck
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
